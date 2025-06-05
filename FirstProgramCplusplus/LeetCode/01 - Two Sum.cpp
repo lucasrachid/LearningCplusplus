@@ -39,9 +39,19 @@ main()
 
     vector<int> result = solution.twoSum(nums, target);
 
-    for (int index : result)
+    string resultString = "[";
+
+    int resultSize = static_cast<int>(result.size());
+    for (int i = 0; i < resultSize; i++)
     {
-        cout << index << " ";
+        resultString += to_string(result[i]);
+        if (i < resultSize - 1)
+        {
+            resultString += ", ";
+        }
     }
-    cout << endl;
+
+    resultString += "]";
+
+    cout << "result " << resultString << endl;
 }
