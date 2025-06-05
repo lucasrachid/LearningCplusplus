@@ -2,7 +2,6 @@
 // Created by lucas on 04/06/2025.
 //
 
-#include "FirstProgram.h"
 #include <iostream>
 using namespace std;
 
@@ -16,7 +15,7 @@ using namespace std;
 // argv = array com cada argumento como string.
 // argv[0] sempre é o nome do programa.
 
-int main(int argc, char const *argv[])
+int main()
 {
     cout << "Hello World!" << endl;
 
