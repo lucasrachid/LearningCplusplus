@@ -19,5 +19,8 @@ int main()
 {
     cout << "Hello World!" << endl;
 
+    // Always return 0 on main function, because usually means success..
+    // Any non-zero value signals an error or abnormal termination
+    // but it is a status that will pass to the Operating System.
     return 0;
 }
