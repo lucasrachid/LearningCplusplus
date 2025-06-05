@@ -1,0 +1,74 @@
+# === IDEs e editores ===
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
+
+# === Arquivos temporários do sistema ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Compilação ===
+*.o
+*.obj
+*.gch
+*.pch
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+
+# === Arquivos de build ===
+build/
+Build/
+bin/
+Bin/
+dist/
+*.log
+*.tmp
+
+# === Arquivos de backup ===
+*~
+*.swp
+*.bak
+*.old
+
+# === CMake / Makefile / Ninja ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+makefile
+build.ninja
+rules.ninja
+compile_commands.json
+
+# === Qt Creator ===
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# === CLion ===
+cmake-build-*/
+
+# === VSCode C++ tools ===
+.vscode/ipch
+.vscode/.browse.VC.db
+.vscode/c_cpp_properties.json
+
+# === Outros ===
+*.manifest
+*.dep
+*.d
+*.sdf
+*.suo
+*.ncb
+*.idb
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.VC.db
